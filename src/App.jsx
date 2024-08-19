@@ -22,6 +22,10 @@ const App = () => {
           title='Campus Photos' 
         />
         <Campus/>
+        <Title 
+          subTitle='Testimonials' 
+          title='What Student Says' 
+        />
       </div>
     </div>
   )

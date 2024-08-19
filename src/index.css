@@ -43,3 +43,8 @@ a{
   padding-top: 2px;
 }
 
+.btn.dark-btn{
+  background: #212EA0;
+  color: #fff;
+}
+
