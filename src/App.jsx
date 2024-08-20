@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar/Navbar"
 import Programs from "./Components/Programs/Programs"
 import Testimonials from "./Components/Testimonials/Testimonials"
 import Title from "./Components/Title/Title"
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Testimonials/>
         <Title subTitle='Contact Us' title='Get in Touch' />
         <Contact/>
+        <Footer/>
       </div>
     </div>
   )

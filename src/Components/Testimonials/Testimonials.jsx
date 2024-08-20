@@ -46,7 +46,7 @@ function Testimonials() {
     }
 
     return (
-        <div className='testimonials'>
+        <div className='testimonials' name="testimonials">
             <img src={next_icon} alt="Next" className='next-btn' onClick={slideForward} />
             <img src={back_icon} alt="Back" className='back-btn' onClick={slideBackward} />
             <div className="slider">
