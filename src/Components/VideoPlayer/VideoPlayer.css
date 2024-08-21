@@ -1,0 +1,32 @@
+.video-player {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.video-player.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.video-player video {
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    border: 4px solid #fff;
+    transition: transform 0.5s ease;
+}
+
+.video-player.show video {
+    transform: scale(1.05);
+}
