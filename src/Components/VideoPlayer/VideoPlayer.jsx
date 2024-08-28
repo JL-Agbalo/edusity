@@ -12,7 +12,7 @@ const VideoPlayer = ({playState, setPlayState}) => {
             setPlayState(false);
             if (videoRef.current) {
                 videoRef.current.pause(); 
-                console,log(videoRef.current)
+                console.log(videoRef.current)
             }
         }
     }
